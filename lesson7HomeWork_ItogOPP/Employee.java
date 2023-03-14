@@ -52,7 +52,7 @@ public class Employee {
         if (!(o instanceof Employee))
             return false;
         Employee employee = (Employee) o;
-        return Objects.equals(lastName, employee.lastName);
+        return Objects.equals(lastName, employee.firstName);
     }
 
     @Override
